@@ -7,7 +7,7 @@ window.addEventListener("load", async function(e){
         auth: 'YOUR-TOKEN'
     })
       
-    await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+    await octokit.request('GET /repos/{owner}/{repo}/zipball/{path}', {
         owner: 'OWNER',
         repo: 'REPO',
         path: 'PATH',
