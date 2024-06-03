@@ -3,7 +3,7 @@ import { Octokit, App } from "https://esm.sh/octokit?dts";
 window.addEventListener("load", async function(e){
     console.log("tst");
 
-    const octokit = new Octokit({
+    /*const octokit = new Octokit({
         auth: 'YOUR-TOKEN'
     })
       
@@ -14,6 +14,10 @@ window.addEventListener("load", async function(e){
         headers: {
           'X-GitHub-Api-Version': '2022-11-28'
         }
-    })
+    })*/
+	fetch("https://github.com/Miner1e/RPGItems/raw/main/assets.zip", {
+		method: "GET",
+		redirect: "follow"
+	}).then(result => {console.log(result)});
     console.log("tst");
 });
