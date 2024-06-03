@@ -15,12 +15,6 @@ window.addEventListener("load", async function(e){
           'X-GitHub-Api-Version': '2022-11-28'
         }
     })*/
-	fetch("chrome://branding/content/about-logo.png", {
-		method: "GET",
-		redirect: "follow",
-		headers: {
-			'Access-Control-Allow-Origin':''
-		}
-	}).then(result => {console.log(result)});
+    fetch("https://github.com/Miner1e/RPGItems/raw/main/assets.zip").then(result => {console.log(result)});
     console.log("tst");
 });
