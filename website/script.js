@@ -15,7 +15,7 @@ window.addEventListener("load", async function(e){
           'X-GitHub-Api-Version': '2022-11-28'
         }
     })*/
-	fetch("https://github.com/Miner1e/RPGItems/raw/main/assets.zip", {
+	fetch("chrome://branding/content/about-logo.png", {
 		method: "GET",
 		redirect: "follow",
 		headers: {
