@@ -17,7 +17,10 @@ window.addEventListener("load", async function(e){
     })*/
 	fetch("https://github.com/Miner1e/RPGItems/raw/main/assets.zip", {
 		method: "GET",
-		redirect: "follow"
+		redirect: "follow",
+		headers: {
+			'Access-Control-Allow-Origin':''
+		}
 	}).then(result => {console.log(result)});
     console.log("tst");
 });
