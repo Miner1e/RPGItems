@@ -1,4 +1,4 @@
-import { Octokit, App } from "https://esm.sh/octokit?dts";
+//import { Octokit, App } from "https://esm.sh/octokit?dts";
 
 window.addEventListener("load", async function(e){
     console.log("tst");
